@@ -6,14 +6,20 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-contex
 x-kinRank: "9"
 x-alexaRank: "569975"
 tags: "311"
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/311/master/_listings/context-io/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Context.IO
-  x-api-slug: context-io
-  description: context-io-is-the-missing-email-api-that-makes-it-easy-and-fast-to-integrate-your-users-email-data-in-your-application-
+- name: Context.IO - Get Accounts Threads Thread
+  x-api-slug: accountsidthreadsthread-id-get
+  description: |-
+    Returns files, contacts and messages on a given thread. The purpose is to allow Gmail extensions to easily retrieve data when users's load a conversation in the Gmail UI. Hence, threads are identified by the value of their Gmail thread prefixed with "gm-".
+    For example, if the URL of a conversation in the Gmail UI is https://mail.google.com/mail/u/0/#mbox/13119ab37f00b826, you would obtain the details about this thread by calling:
+    GET https://api.context.io/2.0/accounts/<accountId>/threads/gm-13119ab37f00b826
+
+    What about threads on non-Gmail mailboxes?
+    You can retrieve thread information for any message using the Thread resource of that message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
   baseURL: https://api.context.io//2.0/
@@ -24,17 +30,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/311/master/_listings/context-io/accountsidthreadsthread-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/311/master/_listings/context-io/accountsidthreadsthread-id-get-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: Context.IO is the missing email API that makes it easy and fastto integrate
-    your users email data in your application.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
-  humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0/
-  tags: "311"
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/311/master/_listings/context-io/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://constant.contact.api.gallery.streamdata.io

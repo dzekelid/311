@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: "311"
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/311/master/_listings/philadelphia-pennsylvania-311/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Philadelphia Pennsylvania 311
-  x-api-slug: philadelphia-pennsylvania-311
-  description: Philly311s goal is to provide world-class service for all our channels-phone,email,mobile,web
-    and social media. When you submit a service ticket we aim to deliver you timely
-    updates and accurate information. By working closely with city departments, we
-    develop valuable insights that help to improve our city.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/philly-311.jpg
-  humanURL: http://www.phila.gov/311/pages/default.aspx
-  baseURL: https:///
-  tags: "311"
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/311/master/_listings/philadelphia-pennsylvania-311/openapi.md
+apis: []
 x-common:
 - type: x-open-311-feed
   url: http://www.publicstuff.com/api/open311/services.xml?jurisdiction_id=philadelphia-pa
