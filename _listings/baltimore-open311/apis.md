@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/b
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: "311"
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/311/master/_listings/baltimore-open311/apis.md
 specificationVersion: "0.14"
 apis:
@@ -91,6 +91,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/311/master/_listings/baltimore-open311/requests-response-format-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.waf.api.gallery.streamdata.io
 - type: x-website
   url: http://wiki.open311.org/GeoReport_v2/Servers
 include: []

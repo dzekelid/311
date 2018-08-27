@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: San Francisco California 311
 x-complete: 1
@@ -162,4 +161,3 @@ paths:
       tags:
       - "311"
       - Requests
----

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: "311"
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/311/master/_listings/chicago-illinois-311/apis.md
 specificationVersion: "0.14"
 apis:
@@ -91,6 +91,8 @@ apis:
 x-common:
 - type: x-website
   url: http://cityofchicago.org/311
+- type: x-api-gallery
+  url: http://brookline.massachusetts.311.api.gallery.streamdata.io
 - type: x-open-311-feed
   url: http://311api.cityofchicago.org/open311/v2/services.xml?jurisdiction_id=cityofchicago.org
 - type: x-twitter
